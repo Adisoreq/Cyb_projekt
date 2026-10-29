@@ -1,0 +1,22 @@
+{
+  "name": "cyb-server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "reset-admin": "node scripts/resetAdmin.js",
+    "show-db": "node scripts/showDb.js",
+    "test": "node --test test/api.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "duckdb": "^1.4.4",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "allowScripts": {
+    "duckdb@1.4.4": true
+  }
+}
